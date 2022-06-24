@@ -20,3 +20,6 @@ print(pyautogui.position()) # print the position of mouse
 pyautogui.move(-30, 0)      # move the mouse left 30 pixels.
 print(pyautogui.position()) # print the position of mouse
 
+pyautogui.moveRel(100, 100, 3)      # move the mouse relative to its current position 
+print("moveRel", pyautogui.position()) # print the position of mouse
+

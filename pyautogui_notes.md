@@ -86,6 +86,30 @@ python3 -m pip install pyautogui
 # youtube 
 
 ## Python Automation with PyAutoGUI -> Code of the Future
+https://www.youtube.com/watch?v=3PekU8OGBCA
+
+
+## How to make advanced image recognition bots using python
+https://www.youtube.com/watch?v=YRAIUA-Oc1Y
+
+win32API for mouse clicks 
+
+### RGB values and position at mouse pointer 
+```python
+python3
+import pyautogui
+pyautogui.displayMousePosition 
+```
+
+### stop
+```python
+import keyboard
+while keyboard.is_pressed('q') == False:
+    blar blar
+```
+
+
+
 
 
 
